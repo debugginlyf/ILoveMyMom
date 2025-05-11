@@ -154,4 +154,92 @@
     background-color: #ff3385;
     transform: scale(1.05);
   }
-  
+  /* Glowing hover effect */
+.neon-hover:hover {
+  color: #e685d6;
+  text-shadow: 
+    0 0 5px #e685d6,
+    0 0 10px #e685d6,
+    0 0 20px #e685d6,
+    0 0 40px #e685d6;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glowing effect for hearts */
+.hearts {
+  position: absolute;
+  animation: floatHeart 4s infinite;
+}
+
+@keyframes floatHeart {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+/* Glowing effect for button */
+.btn.buttons.neon-hover {
+  border: 2px solid #ff4ecb;
+  background-color: transparent;
+  color: #ff4ecb;
+  text-shadow: 0 0 10px #ff4ecb;
+}
+
+.btn.buttons.neon-hover:hover {
+  color: white;
+  background-color: #ff4ecb;
+  text-shadow: 0 0 20px #ff4ecb;
+  box-shadow: 0 0 15px #ff4ecb, 0 0 25px #ff4ecb;
+}
+/* Fade-in effect */
+.fade-in {
+  animation: fadeIn 2s ease-out;
+}
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Glowing hover effect */
+.neon-hover:hover {
+  color: #ff4ecb;
+  text-shadow: 
+    0 0 5px #ff4ecb,
+    0 0 10px #ff4ecb,
+    0 0 20px #ff4ecb,
+    0 0 40px #ff4ecb;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glowing effect for hearts */
+.hearts {
+  position: absolute;
+  animation: floatHeart 4s infinite;
+}
+
+@keyframes floatHeart {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+/* Glowing effect for button */
+.btn.buttons.neon-hover {
+  border: 2px solid #ff4ecb;
+  background-color: transparent;
+  color: #ff4ecb;
+  text-shadow: 0 0 10px #ff4ecb;
+}
+
+.btn.buttons.neon-hover:hover {
+  color: white;
+  background-color: #ff4ecb;
+  text-shadow: 0 0 20px #ff4ecb;
+  box-shadow: 0 0 15px #ff4ecb, 0 0 25px #ff4ecb;
+}

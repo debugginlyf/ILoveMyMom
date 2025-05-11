@@ -1,0 +1,8 @@
+.neon-hover:hover {
+  color: #e685d6;
+  text-shadow:
+    0 0 5px #e685d6,
+    0 0 10px #e685d6,
+    0 0 20px #e685d6;
+  transition: all 0.3s ease-in-out;
+}

@@ -29,14 +29,14 @@ const Home = () => {
         <div className="petals"></div>
         <div className="content">
           <Container>
-            <h1 className={`title display-4 ${currentFont}`}>Happy Mother's Day 💖</h1>
-            <p className={`subtitle lead ${currentFont}`}>
+            <h1 className={`title display-4 ${currentFont} neon-hover`}>Happy Mother's Day 💖</h1>
+            <p className={`subtitle lead ${currentFont} neon-hover`}>
               To the woman who gave me everything — this is for you, Mom.
             </p>
             <div className="love">
               <button 
                 onClick={revealMessage} 
-                className="btn buttons" 
+                className="btn buttons neon-hover" 
                 id="button"
               >
                 Celebrate Mom ❤️

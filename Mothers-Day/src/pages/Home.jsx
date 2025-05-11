@@ -8,7 +8,7 @@ const Home = () => {
   const [fontIndex, setFontIndex] = useState(0);
   const [petals, setPetals] = useState([]);
   const fonts = ['font-greatvibes', 'font-pacifico', 'font-sacramento', 'font-dancing', 'font-indie'];
-  const flowerEmojis = ['🌸', '🌺', '🌷', '🌼', '🏵️', '💮', '🪷'];
+  const flowerEmojis = ['🌸', '🌺', '🌷', '🌼'];
 
   useEffect(() => {
     // Font cycling effect
@@ -69,7 +69,7 @@ const Home = () => {
                 className="btn buttons neon-hover" 
                 id="button"
               >
-                Celebrate You 🥹❤️
+                Celebrate You ❤️
               </button>
               <div id="heart1" className="hearts"></div>
               <div id="heart2" className="hearts"></div>

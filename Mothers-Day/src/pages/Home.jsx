@@ -61,7 +61,7 @@ const Home = () => {
           <Container>
             <h1 className={`title display-4 ${currentFont} neon-hover`}>Happy Mother's Day 💖</h1>
             <p className={`subtitle lead ${currentFont} neon-hover`}>
-              To the woman who gave me everything — this is for you, Mom.
+              To the woman who gave us everything — this is for you, Mom.
             </p>
             <div className="love">
               <button 
@@ -69,7 +69,7 @@ const Home = () => {
                 className="btn buttons neon-hover" 
                 id="button"
               >
-                Celebrate Mom ❤️
+                Celebrate You 🥹❤️
               </button>
               <div id="heart1" className="hearts"></div>
               <div id="heart2" className="hearts"></div>

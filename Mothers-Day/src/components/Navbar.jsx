@@ -21,7 +21,7 @@ const NavbarComponent = () => (
         className="text-danger fw-bold"
         style={{ fontFamily: 'Pacifico, cursive', fontSize: '1.8rem' }}
       >
-        💖 Mom's Day
+        💖 Humari Pyaari Mummy 
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

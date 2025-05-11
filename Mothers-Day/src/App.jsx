@@ -16,7 +16,6 @@ const App = () => (
       <Route path="/memories" element={<Memories />} />
       <Route path="/reasons" element={<Reasons />} />
       <Route path="/letter" element={<Letter />} />
-      <Route path="/audio" element={<Audio />} />
       <Route path="/gallery" element={<Gallery />} />
     </Routes>
   </Router>

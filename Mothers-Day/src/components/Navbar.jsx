@@ -46,10 +46,10 @@ const NavbarComponent = () => {
         <Navbar.Brand
           as={Link}
           to="/"
-          className="text-danger fw-bold"
+          className="text-danger"
           style={{ fontFamily: 'Pacifico, cursive', fontSize: '1.8rem' }}
         >
-          💖 Pyaari Mummy 
+          💖 Pyaari Maa
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -90,24 +90,7 @@ const NavbarComponent = () => {
             >
               Letter
             </Nav.Link>
-            <Nav.Link 
-              as={Link} 
-              to="/audio" 
-              style={linkStyle} 
-              className="neon-hover"
-              onClick={() => setExpanded(false)}
-            >
-              Audio
-            </Nav.Link>
-            <Nav.Link 
-              as={Link} 
-              to="/gallery" 
-              style={linkStyle} 
-              className="neon-hover"
-              onClick={() => setExpanded(false)}
-            >
-              Gallery
-            </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -3,15 +3,117 @@ import '../styles/Reasons.css';
 import { Container, ListGroup } from 'react-bootstrap';
 
 const Reasons = () => {
+  const reasons = [
+    "We love how you love us unconditionally.",
+    "You’re always there when we need you.",
+    "You believe in us even when we doubt ourselves.",
+    "You support both of our dreams equally.",
+    "You sacrifice so much without expecting anything back.",
+    "You give us the best advice every time.",
+    "You listen to our hearts, not just our words.",
+    "Your hugs make everything better for both of us.",
+    "You’re our biggest cheerleader in life.",
+    "You make our house a warm and loving home.",
+    "You never give up on either of us.",
+    "You stay strong, even during life’s hardest storms.",
+    "You cook with so much love — we can taste it!",
+    "You laugh at our silly jokes just to make us smile.",
+    "You understand us better than we understand ourselves.",
+    "You taught us the difference between right and wrong.",
+    "You forgive us faster than we forgive ourselves.",
+    "You’re so patient when we mess up.",
+    "You celebrate our smallest victories.",
+    "You keep our family close and strong.",
+    "You always know exactly what to say.",
+    "You put our needs before your own, every time.",
+    "You showed us how to truly love others.",
+    "You pray for our health, joy, and future.",
+    "You were our very first teacher.",
+    "You are the heart of our family.",
+    "You inspire us to be more compassionate.",
+    "You understand us in ways no one else can.",
+    "You helped shape who we’ve become.",
+    "You believe in our potential even when we forget it.",
+    "You stay calm and graceful under pressure.",
+    "You make the ordinary feel extraordinary.",
+    "You push us to be brave when we're afraid.",
+    "You let us grow into who we’re meant to be.",
+    "You hold us when we’re hurting.",
+    "You never leave our side during tough times.",
+    "You remind us that love is our superpower.",
+    "You are the role model we look up to.",
+    "You love us at our worst and laugh with us at our best.",
+    "You taught us to be kind, always.",
+    "You always see the good in everyone — and in us.",
+    "You worked so hard to give us a beautiful life.",
+    "You stayed awake when we were sick, just to comfort us.",
+    "You cheered us on at every recital, game, or event.",
+    "You made every birthday feel magical.",
+    "You taught us to give, not just take.",
+    "You honor our feelings with patience and care.",
+    "You raised us to be honest and brave.",
+    "You accept us just the way we are.",
+    "You have the most comforting smile.",
+    "You never let us give up on ourselves.",
+    "You keep our family traditions alive.",
+    "You’re the most honest and humble woman we know.",
+    "You always keep learning and growing.",
+    "You helped us through every homework panic.",
+    "You remind us to have faith in tough times.",
+    "You fill our lives with wisdom and warmth.",
+    "You welcome everyone with an open heart.",
+    "You showed us how to stand up for what’s right.",
+    "You’re graceful even in chaos.",
+    "You have the most reassuring voice.",
+    "You are so beautiful inside and out.",
+    "You encouraged our creativity and curiosity.",
+    "You let us fall, but helped us rise every time.",
+    "You tell the best stories from your heart.",
+    "You taught us the healing power of forgiveness.",
+    "You made holidays feel like fairy tales.",
+    "You express love in everything you do.",
+    "You’re always just a call or text away.",
+    "You taught us to work hard and stay humble.",
+    "You showed us how to bounce back from failure.",
+    "You celebrated every small and big achievement.",
+    "You laugh with us, not at us.",
+    "You remind us what really matters in life.",
+    "You helped us through heartbreak and disappointment.",
+    "You’ve filled our lives with beautiful memories.",
+    "You held us when the world felt too heavy.",
+    "You taught us to be thankful for everything.",
+    "You always think of others before yourself.",
+    "You turn bad days into good ones with just your voice.",
+    "You make us feel safe, even when we’re far from home.",
+    "You share your strength when we feel weak.",
+    "You’re proud of us even when we’re unsure of ourselves.",
+    "You made growing up feel magical.",
+    "You never let us feel alone.",
+    "You know exactly when to be soft and when to be strong.",
+    "You make the simple things unforgettable.",
+    "You remind us to never settle for less than we deserve.",
+    "You give us space to grow but never stop caring.",
+    "You trust us, even when we make mistakes.",
+    "You never run out of love — it just keeps growing.",
+    "You’ve always been our safe place.",
+    "You cheer us on louder than anyone else.",
+    "You find beauty in everything — even in us.",
+    "You light up the room with your energy.",
+    "You remind us of who we are when we forget.",
+    "You’ve always been our home, wherever we go.",
+    "You help us see the good in every situation.",
+    "You give us courage just by being there.",
+    "You are our forever best friend.",
+    "You’re our greatest blessing, every single day."
+  ];
+
   return (
     <Container className="reasons-page py-5">
-      <h2 className="text-center mb-4">Why I Love You, Mom ❤️</h2>
+      <h2 className="text-center mb-4">100 Reasons Why We Love You, Mom ❤️</h2>
       <ListGroup variant="flush">
-        <ListGroup.Item>I love your kindness and selflessness.</ListGroup.Item>
-        <ListGroup.Item>You always put others before yourself.</ListGroup.Item>
-        <ListGroup.Item>Your hugs make everything better.</ListGroup.Item>
-        <ListGroup.Item>You inspire me to be better every day.</ListGroup.Item>
-        <ListGroup.Item>Your laughter lights up any room.</ListGroup.Item>
+        {reasons.map((reason, index) => (
+          <ListGroup.Item key={index}>{index + 1}. {reason}</ListGroup.Item>
+        ))}
       </ListGroup>
     </Container>
   );

@@ -1,24 +1,29 @@
 .reasons-page {
-    background-color: #ffe6f7;
-    padding: 2rem 0;
-  }
-  
-  h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ff6b81;
-  }
-  
-  .list-group-item {
-    background-color: #fff;
-    border: 1px solid #f0f0f0;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    color: #555;
-    transition: all 0.3s ease;
-  }
-  
-  .list-group-item:hover {
-    background-color: #ffb3c6;
-    transform: scale(1.02);
-  }
-  
+  background: linear-gradient(to bottom, #fff0f6, #ffe6f0);
+  padding: 2rem 0;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #d63384;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(214, 51, 132, 0.2);
+  margin-bottom: 2rem;
+}
+
+.list-group-item {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4rem;
+  color: #6a3093;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-left: 4px solid #ff6b81;
+  padding: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #ffb3c6;
+  color: white;
+  border-left: 4px solid #d63384;
+  transform: scale(1.02);
+}

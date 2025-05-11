@@ -1,32 +1,43 @@
 import React from 'react';
 import '../styles/Memories.css';
+import momImage from '../images/Mummy.jpg'
+import threePics from '../images/ThreeOfUs.png'
+import momDad from '../images/MummyPapa.jpg'
+import mummySolo from '../images/MummySolo.jpg'
+import mumPapa from '../images/MumPapa.jpg'
+import mumSwati from '../images/MummySwati.jpg'
+import mumArsh from '../images/MummyArsh.jpg'
 import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const memoryData = [
   {
-    image: "https://via.placeholder.com/300",
-    text: "A beautiful day we spent together at the park."
+    image: momImage,
+    text: "We Love you Mom!"
   },
   {
-    image: "https://via.placeholder.com/300",
-    text: "The sweetest birthday celebration we've had."
+    image: momDad,
+    text: "Forever and always!"
   },
   {
-    image: "https://via.placeholder.com/300",
-    text: "A memorable trip we took last summer."
+    image: threePics,
+    text: "The masti Squad!"
   },
   {
-    image: "https://via.placeholder.com/300",
-    text: "A mmorable trip we took last summer."
+    image: mumPapa,
+    text: "The perfect couple"
   },
   {
-    image: "https://via.placeholder.com/300",
-    text: "A memorabltrip we took last summer."
+    image: mummySolo,
+    text: "Santoor Mom 😍"
   },
   {
-    image: "https://via.placeholder.com/300",
-    text: "A memorabltrip we took last summer."
+    image: mumSwati,
+    text: "Heart of a lion, raised by a queen"
+  },
+  {
+    image: mumArsh,
+    text: "Mamma’s pride, beta’s guide"
   }
 ];
 
@@ -135,7 +146,7 @@ const StyledWrapper = styled.div`
 const Memories = () => {
   return (
     <Container className="memories-page py-5">
-      <h2 className="text-center mb-4">Our Beautiful Memories 📸</h2>
+      <h2 className="text-center mb-4">Our Beautiful Memories</h2>
       <Row>
         {memoryData.map((memory, index) => (
           <Col key={index} md={4} sm={6} className="mb-4">

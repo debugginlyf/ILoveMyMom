@@ -1,0 +1,24 @@
+.reasons-page {
+    background-color: #ffe6f7;
+    padding: 2rem 0;
+  }
+  
+  h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff6b81;
+  }
+  
+  .list-group-item {
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #555;
+    transition: all 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #ffb3c6;
+    transform: scale(1.02);
+  }
+  

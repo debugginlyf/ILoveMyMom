@@ -1,0 +1,29 @@
+.audio-page {
+    background-color: #fff0f6;
+    padding: 3rem 0;
+  }
+  
+  .audio-player {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #d63384;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .custom-btn {
+    background-color: #ff5c8a;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #ff3385;
+    transform: scale(1.05);
+  }
+  

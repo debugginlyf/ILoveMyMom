@@ -1,0 +1,15 @@
+.gallery-page {
+    background-color: #f7f8fa;
+    padding: 2rem 0;
+  }
+  
+  .gallery-image {
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  

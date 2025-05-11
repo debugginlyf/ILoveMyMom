@@ -23,6 +23,10 @@ const memoryData = [
   {
     image: "https://via.placeholder.com/300",
     text: "A memorabltrip we took last summer."
+  },
+  {
+    image: "https://via.placeholder.com/300",
+    text: "A memorabltrip we took last summer."
   }
 ];
 

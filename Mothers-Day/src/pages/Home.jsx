@@ -62,11 +62,12 @@ const Home = () => {
             <h1 className={`title display-4 ${currentFont} neon-hover`}>Happy Mother's Day 💖</h1>
             <p className={`subtitle lead ${currentFont} neon-hover`}>
 
-
+<b>
+<strong>
 "तुम हर तूफ़ान के पीछे की शांत ताकत हो, 
 हर अंधेरे कमरे में एक नर्म रौशनी की तरह — 
 तुम्हारा बच्चा होना ही ज़िंदगी का सबसे बड़ा तोहफ़ा है।"
-              Love you more than words can say. 💐❤️
+              Love you more than words can say.</strong> </b>💐❤️
             </p>
             <div className="love">
               <button 

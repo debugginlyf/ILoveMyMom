@@ -61,7 +61,12 @@ const Home = () => {
           <Container>
             <h1 className={`title display-4 ${currentFont} neon-hover`}>Happy Mother's Day 💖</h1>
             <p className={`subtitle lead ${currentFont} neon-hover`}>
-              To the woman who gave us everything — this is for you, Mom.
+
+
+"तुम हर तूफ़ान के पीछे की शांत ताकत हो, 
+हर अंधेरे कमरे में एक नर्म रौशनी की तरह — 
+तुम्हारा बच्चा होना ही ज़िंदगी का सबसे बड़ा तोहफ़ा है।"
+              Love you more than words can say. 💐❤️
             </p>
             <div className="love">
               <button 
@@ -79,7 +84,7 @@ const Home = () => {
             </div>
             {showMessage && (
               <div className="message-box">
-                <p>Thank you for your unconditional love, support, and warmth. You are truly one of a kind.</p>
+                <p>Thank you for your unconditional love, support and warmth. You are truly one of a kind.</p>
               </div>
             )}
           </Container>
